@@ -1,5 +1,18 @@
 # Jarkom-Modul-1-E06-2022
-Repositori Jarkom Modul 1
+Repositori Jarkom Modul 1 kelompok E06
+
+<details><summary>Anggota kelompok(click to show)</summary>
+<p>
+
+### Kelompok E06 :
+1. Billy Brianto            5025201080  (nomor 1, 8-10)
+2. Atha Dzaky Hidayanto    5025201269 (nomor )
+3. Naily Khairiya            5025201244 (nomor )
+</p>
+</details>
+
+
+
 ## 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
 
 Untuk mendapatkan server yang dipakai oleh web tersebut, dapat dilakukan filtering string dengan wireshark untuk mencari alamat web tersebut dalam request http.
