@@ -27,15 +27,37 @@ Dari popup window inilah, terlihat bahwa web server yang digunakan adalah nginx 
 
 ## 2. Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
+
 ## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+
 
 ## 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
 ## 5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+Pertama - tama, buka file pcapng lalu lakukan filtering dengan ```tcp.srcport == 443```.
+Hasilnya sebagai berikut.
+![soal 5](https://user-images.githubusercontent.com/72675854/192028680-4e352f6b-1905-4406-a91a-425b1596d6c2.jpg)
 
 ## 6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
+Pertama - tama, buka file pcapng lalu lakukan filtering dengan ```http.host == lipi.go.id```.
+Hasilnya sebagai berikut.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72675854/192029886-bdc0da4d-e86b-498f-af70-0f9266f846ea.png">
+
 
 ## 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+Pada bagian capture filter masukkan `src host [isi dengan IP kalian]` sebagai contoh `src host  192.168.1.4` . IP dapat dicari dengan `ipconfig.` <br>
+<img width="463" alt="image" src="https://user-images.githubusercontent.com/72675854/192029338-c6ba83d7-f500-47b0-9fa6-5fe5e210d5b3.png">
+
+
+Kemudian pilih wifi untuk mengambil wifi paket yang berasal dari ip sendiri. 
+<img width="612" alt="image" src="https://user-images.githubusercontent.com/72675854/192029099-18a1aa92-02d4-4172-bf78-7c80d0626580.png">
+
+
+Berikut merupakan hasilnya.
+
+
+<img width="613" alt="image" src="https://user-images.githubusercontent.com/72675854/192029490-d50bc151-f8c3-4a65-8331-911e09755ea0.png">
+
 
 ## 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 Soal menyatakan: 
