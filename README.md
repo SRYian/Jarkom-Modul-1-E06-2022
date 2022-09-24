@@ -27,6 +27,10 @@ Dari popup window inilah, terlihat bahwa web server yang digunakan adalah nginx 
 
 ## 2. Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
+Untuk mendapatkan topik ta yang dinginkan, dapat menggunakan display filter:
+```http contains "detailTopik"```
+![1.1](https://cdn.discordapp.com/attachments/1022895770426417274/1023106633162825778/unknown.png)
+
 
 ## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
 
