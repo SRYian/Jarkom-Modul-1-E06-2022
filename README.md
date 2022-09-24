@@ -29,13 +29,16 @@ Dari popup window inilah, terlihat bahwa web server yang digunakan adalah nginx 
 
 Untuk mendapatkan topik ta yang dinginkan, dapat menggunakan display filter:
 ```http contains "detailTopik"```
-![1.1](https://cdn.discordapp.com/attachments/1022895770426417274/1023106633162825778/unknown.png)
+![1.1](https://cdn.discordapp.com/attachments/1022895770426417274/1023110362096205895/unknown.png)
 
 
 ## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
-
+Untuk mendapatkan paket yang menuju ke port 80, lakukan filtering: ```tcp.dstport ==80```
+![1.1](https://cdn.discordapp.com/attachments/1022895770426417274/1023109586959466536/unknown.png)
 
 ## 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+Untuk mendapatkan paket yang menuju ke port 80, lakukan filtering: ```tcp.srcport ==21```
+![1.1](https://cdn.discordapp.com/attachments/1022895770426417274/1023109915545456650/unknown.png)
 
 ## 5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 Pertama - tama, buka file pcapng lalu lakukan filtering dengan ```tcp.srcport == 443```.
