@@ -6,8 +6,8 @@ Repositori Jarkom Modul 1 kelompok E06
 
 ### Kelompok E06 :
 1. Billy Brianto            5025201080  (nomor 1, 8-10)
-2. Atha Dzaky Hidayanto    5025201269 (nomor )
-3. Naily Khairiya            5025201244 (nomor )
+2. Atha Dzaky Hidayanto    5025201269 (nomor 2, 3, 4)
+3. Naily Khairiya            5025201244 (nomor 5, 6, 7)
 </p>
 </details>
 
